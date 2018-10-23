@@ -1,0 +1,10 @@
+<!--pages/move/move-star/move-star.wxml-->
+<template name="moveStar">
+    <block wx:for="{{stars}}" wx:key="index">
+            <view class="star">
+                    <image wx:if="{{item==1}}" src="/images/icon/star.png"></image>
+                    <image wx:else src="/images/icon/none-star.png"></image>
+                </view>
+    </block>
+
+</template>

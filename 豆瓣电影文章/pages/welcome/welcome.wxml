@@ -1,0 +1,6 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="conter">
+    <image src="/images/avatar/4.png"></image>
+    <text>hello,小程序</text>
+    <button hover-class="btn-hover" bindtap = "handClick">开启小程序之旅</button>
+</view>

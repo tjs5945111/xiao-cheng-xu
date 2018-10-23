@@ -1,0 +1,128 @@
+/* pages/move/movedetails/movedetails.wxss */
+@import"/pages/move/move-star/move-star";
+page{
+    width: 100%;
+    background: #FEFEFE;
+}
+.conter-item,.conter-item1{
+    width: 100%;
+    height: 360rpx;
+    display: flex;
+    flex-direction: column;
+    padding: 60rpx;
+}
+.conter-item1{
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+}
+.con{
+    position: relative;
+    height: 450rpx;
+    overflow: hidden;
+}
+.con-bg{
+    filter: blur(8px);
+    width: 100%;
+    height: 450rpx;
+}
+.con-top{
+    position: absolute;
+    right: 20px;
+    top: 140px;
+    width: 180rpx;
+    height: 240rpx;
+}
+.conter-item1 .title{
+    color: #fff;
+    font-size: 22px;
+}
+.conter-item1 .time{
+    color: #fff;
+}
+.conter-item1 .like{
+    color:rgb(34, 33, 34);
+    font-size: 12px;
+}
+.num{
+    color: #C01A41;
+    margin-right: 10px;  
+}
+.num2{
+    margin-left: 5px;
+}
+.name{
+   font-size: 17px;
+   margin-bottom: 25px;
+   width: 400rpx;
+   overflow: hidden;
+   text-overflow:ellipsis;
+   white-space: nowrap; 
+}
+.name1{
+   font-size: 16px;
+   margin-bottom: 20px;
+   opacity: .6;
+}
+.name2{
+    text-indent: 20px;
+    opacity: .8;
+    line-height: 25px;
+    width: 650rpx;
+    height: 250rpx;
+    overflow: hidden;
+    /* text-overflow:ellipsis; */
+    /* white-space: nowrap;  */
+}
+.daoyan,.yin,.lei{
+    margin-top: 10px;
+    font-size: 14px;  
+    width: 650rpx;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap; 
+}
+.daoyan text:first-child,.yin text:first-child,.pin,.lei text:first-child{
+    opacity: .6;
+}
+.conter-item{
+    border-bottom: 1px solid rgb(174, 169, 169);
+}
+.xiang{
+  margin-left: 20px;
+ 
+}
+.dian{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.scroll{
+    width: 100%;height: 300rpx; white-space:nowrap;
+}
+.scroll image{
+  width: 180rpx;
+  height: 230rpx;
+  margin-right: 20px;
+}
+.ren{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 180rpx;
+    height: 280rpx;
+}
+.ren1{
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.star{
+    width: 15px;
+}
+.xin,.pf{
+    display: flex;
+    text-align: start;
+}
+.xin{
+    margin-left: 20px;
+    margin-right: 20px;
+}

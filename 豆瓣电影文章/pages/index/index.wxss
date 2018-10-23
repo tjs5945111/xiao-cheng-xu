@@ -1,0 +1,29 @@
+/**index.wxss**/
+
+.cont image{
+    width: 200rpx;
+    height: 280rpx;
+    margin-bottom: 10rpx;
+}
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.pf{
+    font-size: 30rpx;
+    width: 200rpx;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.cont text{
+    font-size: 27rpx;
+    /* opacity: .7; */
+    color: #347EF1;
+}
+
+.content{
+    margin-bottom: 25rpx;
+    text-align: left;
+}

@@ -1,0 +1,9 @@
+/* pages/move/moremove/moremove.wxss */
+/* pages/move/moveSearch/moveSearch.wxss */
+@import"/pages/move/move-item/move-item";
+.moviesmax{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15rpx;
+}

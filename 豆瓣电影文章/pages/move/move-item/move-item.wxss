@@ -1,0 +1,30 @@
+/* pages/move/move-item/move-item.wxss */
+@import"/pages/move/move-star/move-star";
+.conter .conter-img{
+    width: 225rpx;
+    height: 300rpx;
+}
+.conter{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25rpx;
+}
+.conter .title{
+    margin-top: 30rpx;
+    margin-bottom: 30rpx;
+    font-size: 12px;
+    width: 200rpx;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.ave{
+    display: flex; 
+}
+.ave .arg{
+    margin-left: 35rpx;
+    font-size: 13px;
+}
+page{
+    background: rgb(255, 254, 254);
+}

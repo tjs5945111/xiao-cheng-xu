@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<!-- <view>{{index}}</view> -->
+<!-- <view class="cont">
+    <block wx:for="{{data}}" wx:key="index">
+        <view>
+            <image src="{{item.imgUrl}}" />
+            <view class="pf">{{item.name}}</view>
+            <text>评分：{{item.scor}}</text>
+        </view>
+    </block>
+</view> -->
+<!-- loading组件 -->
+<loading hidden="{{show}}"></loading>
+<view class="cont">
+    <block wx:for="{{list}}" wx:key="index">
+        <view class="content">
+            <!-- <view>{{item.images.small}}</view> -->
+            <image src="{{item.images}}" />
+            <view class="pf">{{item.title}}</view>
+            <text>评分：{{item.average}}</text>
+        </view>
+    </block>
+</view>
+

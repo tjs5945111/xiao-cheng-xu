@@ -1,0 +1,15 @@
+<!--pages/move/move-itemmax/move-itemmax.wxml-->
+<import src="/pages/move/move-item/move-item"></import>
+<template name="moveItemMax">
+    <view class="contermax">
+        <view class="contermax-text">
+            <text>{{title}}</text>
+            <text catchtap="moreMove" data-type="{{type}}" data-title="{{title}}">更多 ></text>
+        </view>
+        <view class="moviesmax">
+            <block wx:for="{{movies}}" wx:key="index">
+                <template is="moveItem" data="{{...item}}"></template>
+            </block>
+        </view>
+    </view>
+</template>

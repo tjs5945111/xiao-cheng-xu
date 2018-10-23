@@ -1,0 +1,22 @@
+<!--pages/details/details.wxml-->
+<view class="count">
+    <!-- <image src="{{list[0].imgSrc}}"></image> -->
+    <image src="{{isplay?list[0].musiccoverImg:list[0].imgSrc}}"></image>
+    <image bindtap = "playmusic" src="{{isplay?'/images/music/music-stop.png':'/images/music/music-start.png'}}" class="music"></image>
+</view>
+
+<view class="counter">
+    <view class="list">
+            <image src="{{list[0].avatar}}"></image>
+            <text>{{list[0].author}}</text>
+            <text>发表于</text>
+            <text>{{list[0].dateTime}}</text>
+    </view>
+    <text class="title">{{list[0].title}}</text>
+    <view class="lin"></view>
+    <view class="img">
+    <image src="{{collected?'/images/icon/collection.png':'/images/icon/collection-anti.png'}}" catchtap="onCollect"></image>
+    <image src="{{shared?'/images/icon/share.png':'/images/icon/share-anti.png'}}" catchtap="onShare"></image>
+    </view>
+    <view class="text">{{list[0].detail}}</view>
+</view>

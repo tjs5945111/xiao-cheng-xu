@@ -1,0 +1,17 @@
+<!--pages/move/move-item/move-item.wxml-->
+<import src="/pages/move/move-star/move-star"></import>
+<template name="moveItem">   
+ <view class="conter" catchtap="moveDetails" data-id="{{id}}" data-title="{{title}}">
+            <image src="{{imgUrl}}" class="conter-img"></image>
+            <text class="title">{{title}}</text>
+            <view class="ave">
+                 <template is="moveStar" data="{{stars}}"> </template><text class="arg">{{average}}</text>
+            </view>
+    </view>
+ <!-- <view class="conter">
+            <image src="/images/beishang.png" class="conter-img"></image>
+            <text class="title">悲伤逆流成河</text>
+            <template is="moveStar"></template>
+    </view> --> 
+</template>
+ 

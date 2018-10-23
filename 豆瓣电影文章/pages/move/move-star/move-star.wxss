@@ -1,0 +1,9 @@
+/* pages/move/move-star/move-star.wxss */
+.star{
+    display: flex;
+    align-items: center;
+}
+.star image{
+    width: 25rpx;
+    height: 25rpx;
+}

@@ -1,0 +1,18 @@
+/* pages/move/move-itemmax/move-itemmax.wxss */
+@import"/pages/move/move-item/move-item";
+.contermax{
+    padding: 15rpx;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.contermax-text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45rpx;
+    margin-top: 15rpx;
+    font-size: 15px;
+}
+.moviesmax{
+    display: flex;
+    justify-content: space-between;
+}

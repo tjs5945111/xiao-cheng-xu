@@ -1,0 +1,30 @@
+/* pages/welcome/welcome.wxss */
+
+page{
+    background: #B2D3DA;
+}
+.conter{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.conter image{
+    margin-top: 40px;
+    width: 200rpx;
+    height: 200rpx;
+}
+.conter text{
+    font-weight: bold;
+    margin: 60px auto 50px;
+}
+.conter button{
+    font-size: 14px;
+    width: 300rpx;
+    color: #476584;
+    background:#B2D3DA;
+    border: 1px solid #476584; 
+}
+.btn-hover{
+    background: rgb(179, 221, 230);
+    color: #fff
+}

@@ -1,0 +1,35 @@
+/* pages/move/moveSearch/moveSearch.wxss */
+@import"/pages/move/move-item/move-item";
+.section image{
+    width: 40rpx;
+    height: 40rpx;
+}
+.section{
+    display: flex;
+    height: 100rpx;
+    width: 100%;
+    align-items: center;
+    background: #eee;
+}
+.moviesmax{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15rpx;
+}
+.section icon{
+    position: absolute;
+    right: 50px;
+    top: 5px;
+}
+.section button{
+    background: #eee;
+    position: absolute;
+    right: 1px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    top: 1px;
+}

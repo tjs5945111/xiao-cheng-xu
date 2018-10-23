@@ -1,0 +1,53 @@
+<!--pages/move/movedetails/movedetails.wxml-->
+<import src="/pages/move/move-star/move-star"></import>
+<view class="conter">
+    <view class="con">
+         <image class="con-bg" src="{{image}}" mode="aspectFill"></image>
+            <view class="conter-item1">
+                    <text class="title">{{alt_title1}}</text>
+                    <view class="time">
+                        <text>{{country}} </text><text class="dian">·</text><text>{{year}}</text>
+                    </view>
+                    
+                    <text class="like"><text class="num">{{count}}</text> 人喜欢 <text class="num num2">{{count2}}</text>条评论</text>
+                </view> 
+    </view>
+    <image class="con-top" src="{{image}}" mode="aspectFill"></image>
+    <view class="conter-item">
+        <text class="name">{{alt_title2}}</text>
+        <view class="pf">
+                <text class="pin">评分</text> <view class="xin"><template is="moveStar" data="{{stars}}"> </template></view> <text class="arg">{{average}}</text>
+        </view>
+       <view class="daoyan">
+        <text >导演 </text><text class="xiang">{{director}}</text>
+       </view>
+       <view class="yin">
+        <text>影人</text> <text class="xiang">{{newarr1}}</text>
+       </view>
+       <view class="lei">
+        <text>类型</text> <text class="xiang">{{newarr2}}</text>
+       </view>
+        
+        
+       
+    </view>
+    <view class="conter-item">
+        <text class="name1">剧情介绍</text>
+        <text class="name2">{{summary}}</text>
+    </view>
+    <view class="conter-item">
+        <text class="name1">影人</text>
+        <scroll-view class='scroll' scroll-x="true">
+            <!-- <view class="sc-conter"> -->
+                    <block wx:for="{{list}}" wx:key="index">
+                            <!-- <view class="ren"> -->
+                                    <image src='{{item.image}}'></image>
+                                    <!-- <text class="ren1">{{item.name}}</text> -->
+                              <!-- </view> -->
+                    </block>          
+            <!-- </view> -->
+            
+            </scroll-view>
+    </view>
+</view>
+

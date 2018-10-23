@@ -1,0 +1,14 @@
+<!--pages/move/moveSearch/moveSearch.wxml-->
+<import src="/pages/move/move-item/move-item"></import>
+<form bindsubmit="onForm" class="section">
+        <button formType="submit" hover-class="none" bindconfirm="onConfirm" > <image src="/images/icon/search.png"></image></button>
+       
+    <input placeholder="楚乔传、悲伤逆流成河" confirm-type="search" bindconfirm="onConfirm" name="search" bind:focus="onFocus" bind:blur="onBlur"
+        value="{{value}}" />
+    <icon type="clear" wx:if="{{isShow}}" catchtap="onClick" size="18"></icon>
+</form>
+<view class="moviesmax">
+    <block wx:for="{{movies}}" wx:key="index">
+        <template is="moveItem" data="{{...item}}"></template>
+    </block>
+</view>

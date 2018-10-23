@@ -1,0 +1,7 @@
+<!--pages/move/moremove/moremove.wxml-->
+<import src="/pages/move/move-item/move-item"></import>
+      <view class="moviesmax">
+            <block wx:for="{{movies}}" wx:key="index">
+                <template is="moveItem" data="{{...item}}"></template>
+            </block>
+        </view>

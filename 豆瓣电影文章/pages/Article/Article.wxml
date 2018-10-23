@@ -1,0 +1,26 @@
+<!--pages/Article/Article.wxml-->
+<swiper indicator-dots="{{true}}" autoplay="{{true}}"current="0" interval="5000" duration="1000" bindchange="">
+    <block wx:for="{{imgUrl}}" wx:key="index">
+        <swiper-item>
+            <image src="{{item.src}}" catchtap="handClick" data-id="{{item.id}}"></image>
+        </swiper-item> 
+       </block>
+</swiper>
+
+<block wx:for="{{list}}" wx:key="index">
+    <!-- 将id一起传到跳转页面 -->
+        <view class="conter" bindtap = "handClick" data-id="{{item.postId}}">
+                <view class="top">
+                        <image src="{{item.imgUrltop}}"></image>
+                        <text>{{item.time}}</text>
+                </view>
+                <text class="title">{{item.title}}</text>
+                <image class="img" src="{{item.imgUrlsrc}}"></image>
+                <view class="bottom">
+                    <image src="/images/icon/chat1.png"></image>
+                    <text>{{item.reading}}</text>
+                    <image src="/images/icon/view.png"></image>
+                    <text>{{item.collection}}</text>
+                </view>
+            </view>
+    </block>

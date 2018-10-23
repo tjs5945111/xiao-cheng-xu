@@ -1,0 +1,10 @@
+<!--pages/aboutMe/aboutMe.wxml-->
+<view class="conter">
+    <view>
+        <image src="{{isEmpty?'/images/avatar/4.png':imgUrl}}" 
+        catchtap="click" mode="aspectFill"></image>
+    </view>
+    <view class="text">
+        <text>你的梦想是不是只是说说而已</text>
+    </view>
+</view>

@@ -1,0 +1,9 @@
+<!--pages/move/move.wxml-->
+<import src="/pages/move/move-itemmax/move-itemmax"></import>
+<view class="section" catchtap="searchMore">
+    <image src="/images/icon/search.png"></image>
+    <input placeholder="楚乔传、悲伤逆流成河"/>
+  </view>
+  <template is="moveItemMax" data="{{...in_theaters}}"></template>
+  <template is="moveItemMax" data="{{...coming_soon}}"></template>
+  <template is="moveItemMax" data="{{...top250}}"></template>

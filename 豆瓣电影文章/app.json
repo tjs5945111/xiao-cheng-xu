@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/aboutMe/aboutMe",
+    "pages/move/move",
+    "pages/move/movedetails/movedetails",
+    "pages/move/moremove/moremove",
+    "pages/move/moveSearch/moveSearch",
+    "pages/move/move-star/move-star",
+    "pages/move/move-item/move-item",
+    "pages/move/move-itemmax/move-itemmax",
+    "pages/details/details",
+    "pages/Article/Article",
+    "pages/index/index",
+    "pages/map/map"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#B2D3DA",
+    "navigationBarTitleText": "小程序",
+    "navigationBarTextStyle": "#fff",
+    "backgroundColor": "#F6F6F6",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#3758F9",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/move/move",
+        "text": "电影",
+        "iconPath": "images/tab/dianying.png",
+        "selectedIconPath": "images/tab/dianying_hl.png"
+      },
+      {
+        "pagePath": "pages/Article/Article",
+        "text": "阅读",
+        "iconPath": "images/tab/yuedu.png",
+        "selectedIconPath": "images/tab/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "地图",
+        "iconPath": "images/tab/map.png",
+        "selectedIconPath": "images/tab/map_hl.png"
+      },
+      {
+        "pagePath": "pages/aboutMe/aboutMe",
+        "text": "我的",
+        "iconPath": "images/tab/user.png",
+        "selectedIconPath": "images/tab/user_hl.png"
+      }
+    ]
+  }
+}

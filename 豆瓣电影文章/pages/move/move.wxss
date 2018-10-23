@@ -1,0 +1,17 @@
+/* pages/move/move.wxss */
+@import"/pages/move/move-itemmax/move-itemmax";
+page{
+    background: #eee;
+}
+.section image{
+    width: 40rpx;
+    height: 40rpx;
+    margin-left: 20rpx;
+    margin-right: 60rpx;
+}
+.section{
+    display: flex;
+    height: 100rpx;
+    width: 100%;
+    align-items: center;
+}
